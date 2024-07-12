@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Home</h1>
+            <h2>Welcome to Our Website!</h2>
+            <p>Experience the best with our expert team.</p>
+            <button class="cta-button" onclick="location.href='#services'">Explore Our Services</button>
+            <blockquote>
+                <p>"The best way to predict the future is to create it." - Peter Drucker</p>
+            </blockquote>
+        </div>
+    </section>
+        
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a dedicated team of professionals offering top-notch services.</p>
+        <h3>Our Mission</h3>
+        <p>Our mission is to deliver exceptional service and solutions that exceed our clients' expectations, while fostering a culture of innovation and integrity.</p>
+        <h3>Our Vision</h3>
+        <p>Our vision is to be the leading provider in our industry, recognized for our commitment to quality, customer satisfaction, and social responsibility.</p>
+        <article>
+            <h4>Our History</h4>
+            <p>Founded in 2010, we have grown from a small startup to a leader in our field, thanks to our dedicated team and loyal clients.</p>
+        </article>
+    </section>   
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>There are many services we offer, some of them are:</p>
+        <ul>
+            <li><strong>Consulting:</strong> Professional consulting services to help your business thrive. Our experts provide insights and strategies tailored to your specific needs.</li>
+            <li><strong>Development:</strong> Custom software development to bring your ideas to life. We specialize in building robust, scalable, and secure applications.</li>
+            <li><strong>Support:</strong> Comprehensive support services to ensure your systems run smoothly. We offer maintenance, troubleshooting, and continuous improvement.</li>
+        </ul>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Support</h3>
+                <p>Reliable support to keep you going.</p>
+                <a href="#contact" class="card-link">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you! Reach out to us via the following methods:</p>
+        <ul>
+            <li>Email: <a href="mailto:info@example.com">info@example.com</a></li>
+            <li>Phone: <a href="tel:+1234567890">+1 234 567 890</a></li>
+            <li>Address: 123 Main Street, City, Country</li>
+        </ul>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>    
+
+    <script src="scripts.js"></script>
+</body>
+</html>
